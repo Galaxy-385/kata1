@@ -6,8 +6,8 @@ public class Main {
 
         Student student1 = new Student("pepe", 20);
 
-        System.out.println(student1.getName());
-        System.out.println(student1.getAge());
-        System.out.println(student1.isAdult());
+        System.out.println("Nombre: " + student1.getName());
+        System.out.println("Edad: " + student1.getAge());
+        System.out.println("es adulto: " + student1.isAdult());
     }
 }
