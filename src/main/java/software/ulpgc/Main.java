@@ -10,4 +10,5 @@ public class Main {
         System.out.println("Nombre: " + student1.getName());
         System.out.println("Es adulta: " + student1.isAdult());
     }
+
 }
