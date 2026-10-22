@@ -1,25 +1,23 @@
-# Kata 1
+This kata focuses on becoming familiar with IntelliJ IDEA and the basic workflow involving Java, Git, and GitHub.
 
-Esta kata consiste en familiarizarse con IntelliJ IDEA y con el flujo básico de trabajo con Java, Git y GitHub.
+The project is a small Java program that uses a `Student` class. This class has the attributes `name` and `age`, a constructor, the methods `getName()` and `getAge()`, and the `isAdult()` method, which checks whether the student is an adult.
 
-El proyecto es un pequeño programa Java que utiliza una clase `Student`. Esta clase tiene los atributos `name` y `age`, un constructor, los métodos `getName()` y `getAge()`, y el método `isAdult()`, que permite comprobar si el estudiante es mayor de edad.
+The main program creates a `Student` object, uses its methods, and displays the results in the console.
 
-El programa principal crea un `Student`, utiliza sus métodos y muestra el resultado por consola.
+The project uses Java, Maven, and IntelliJ IDEA, and the package is `software.ulpgc`.
 
-El proyecto utiliza Java, Maven e IntelliJ IDEA y el paquete utilizado es `software.ulpgc`.
+To run the project, the `Main` class can be executed directly from IntelliJ IDEA.
 
-Para ejecutar el proyecto se puede ejecutar la clase `Main` desde IntelliJ IDEA.
+During the kata, Git was used with the `master` and `develop` branches. Development takes place in `develop`, and the changes are then merged into `master` to publish the final version on GitHub.
 
-Durante la realización de la kata se ha utilizado Git mediante las ramas `master` y `develop`. El trabajo se realiza en `develop` y después se integra en `master` para subir la versión final a GitHub.
+The kata was repeated three times to practise the same workflow. In each iteration, the micro-project was recreated while maintaining the same scope.
 
-La kata se ha repetido tres veces para practicar el mismo flujo de trabajo. En cada repetición se ha vuelto a realizar el microproyecto manteniendo el mismo alcance.
+The IntelliJ IDEA debugger was also used by setting breakpoints in the `Student` constructor and the `isAdult()` method. These breakpoints allow execution to be paused and the values available at that point to be inspected.
 
-También se ha utilizado el depurador de IntelliJ IDEA colocando breakpoints en el constructor de `Student` y en el método `isAdult()`. Los breakpoints permiten detener la ejecución y comprobar los valores disponibles en ese momento.
+Additionally, the project was refactored using IntelliJ IDEA's built-in tools, and several keyboard shortcuts were used to improve the workflow.
 
-Además, se ha realizado una refactorización mediante las herramientas de IntelliJ IDEA y se han utilizado diferentes shortcuts para trabajar con el proyecto.
+The repository is public, and the project has been tested by cloning it into a different folder and verifying that it runs correctly.
 
-El repositorio es público y se ha comprobado que el proyecto puede clonarse en otra carpeta y ejecutarse correctamente.
+**Explanatory video:**
 
-Vídeo explicativo:
-
-[ENLACE AL VÍDEO]
+[VIDEO LINK]
